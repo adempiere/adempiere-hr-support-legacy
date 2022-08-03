@@ -19,9 +19,9 @@ if (JavaVersion.current().isJava8Compatible()) {
 }
 
 dependencies {
-    api 'io.github.adempiere:base:3.9.4-develop-2.5'
-    api 'io.github.adempiere:human-resource-and-payroll:3.9.4-develop-1.4'
-    api 'io.github.adempiere:time-and-attendance:3.9.4-develop-1.4'
+    api 'io.github.adempiere:base:3.9.4-develop-2.6'
+    api 'io.github.adempiere:human-resource-and-payroll:3.9.4-develop-1.5'
+    api 'io.github.adempiere:time-and-attendance:3.9.4-develop-1.5'
 }
 
 sourceSets {
@@ -42,7 +42,7 @@ signing {
 }
 
 def entityType = 'D'
-version = "1.0.0"
+version = "1.0.1"
 
 jar {
     manifest {
